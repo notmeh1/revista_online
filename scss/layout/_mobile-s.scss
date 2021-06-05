@@ -2,15 +2,14 @@
 
     .nav {
         width: 100px;
+        & ul {
+            display: inline;
+        }
+        & ul li {
+            margin-right: 1em;
+        }
     }
 
-    .nav ul {
-        display: inline;
-    }
-
-    .nav ul li {
-        margin-right: 1em;
-    }
     .input-menu {
         width: 100px;
     }
