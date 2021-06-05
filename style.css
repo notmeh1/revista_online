@@ -29,9 +29,10 @@ body {
 
 .logo {
     grid-area: logo;
-    font-size: 24px;
+    font-size: 4em;
     font-weight: bold;
     text-transform: uppercase;
+    align-self: center;
 }
 
 .nav {
@@ -42,6 +43,8 @@ body {
 .nav ul {
     display: inline-flex;
     list-style-type: none;
+    align-items: center;
+    margin: 20px 0;
 }
 
 .nav li {
@@ -51,10 +54,12 @@ body {
 .nav ul li a {
     text-decoration: none;
     text-transform: uppercase;
+    font-size: 1.5em;
 }
 
 .input-menu {
     border-radius: 30px;
+    width: 120px;
 }
 
 .contenido {
@@ -96,18 +101,19 @@ body {
     grid-area: news_6;
 }
 .noticia {
-    width: 210px;
+    width: 510px;
     margin: 5px;
     cursor: pointer;
 }
 
 .cuerpo img {
-    width: 210px;
-    height: 300px;
+    width: 100%;
+    height: 500px;
 }
 
 .cuerpo p {
     padding: 5px 10px;
+    font-size: 2.5em;
 }
 
 .listado-izquierdo {
@@ -121,6 +127,9 @@ body {
     border-bottom: 1px solid gray;
 }
 
+.cabecera h2 {
+    font-size: 4em;
+}
 .tags {
     border-bottom: 1px solid gray;
 }
@@ -149,7 +158,7 @@ body {
 
 .newsletter {
     grid-area: newsletter;
-    width: 960px;
+    width: 100%;
     height: 200px;
     background-color: #f2f4f5;
     text-align: center;
@@ -180,4 +189,5 @@ body {
     width: 960px;
     margin: 0 auto;
     text-align: center;
+    font-size: 8px;
 }
