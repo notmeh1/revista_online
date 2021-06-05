@@ -1,13 +1,9 @@
+@import "base/reset";
+@import "base/typography";
+@import "layout/tablet";
+
 * {
     box-sizing: border-box;
-}
-
-html, body {
-    margin: 0;
-    padding: 0;
-}
-body {
-    font-family: monospace;
 }
 
 .contenedor {
@@ -18,6 +14,7 @@ body {
     width: 960px;
     margin: 0 auto;
 }
+
 
 .menu {
     grid-area: menu;
@@ -77,6 +74,8 @@ body {
     width: 100%;
 }
 
+
+ 
 .news_1 {
     grid-area: news_1;
 }
@@ -121,6 +120,8 @@ body {
     width: 220px;
     float: right;
 }
+
+
 
 .cabecera-listado {
     width: 220px;
